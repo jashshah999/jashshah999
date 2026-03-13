@@ -2,11 +2,9 @@
 
 17 PRs merged across 7 repos.
 
-[GTSAM](#gtsam) | [LeRobot](#huggingface-lerobot) | [Rerun](#rerun) | [PyTorch RL](#pytorch-rl) | [Transformers](#huggingface-transformers) | [Accelerate](#huggingface-accelerate) | [RSL_RL](#rsl_rl)
-
 ---
 
-<details>
+<details open>
 <summary><b>GTSAM</b> — 5 PRs</summary>
 
 | PR | Description |
