@@ -1,6 +1,6 @@
 ## Open Source Contributions
 
-13 PRs merged across 7 repos.
+17 PRs merged across 7 repos.
 
 ### [HuggingFace LeRobot](https://github.com/huggingface/lerobot)
 
@@ -9,6 +9,24 @@
 | [#2486](https://github.com/huggingface/lerobot/pull/2486) | Enable `torch.compile` for DiffusionPolicy -- inference speedup for real-time robot control |
 | [#3016](https://github.com/huggingface/lerobot/pull/3016) | Replace assertions with proper exceptions in video frame decoding |
 | [#3017](https://github.com/huggingface/lerobot/pull/3017) | Fix missing config file in pip installs causing AttributeError crash |
+
+### [GTSAM](https://github.com/borglab/gtsam)
+
+| PR | Description |
+|---|---|
+| [#2456](https://github.com/borglab/gtsam/pull/2456) | Fix `enforceConsistency_` in BatchFixedLagSmoother -- first-estimates Jacobian logic was silently broken |
+| [#2463](https://github.com/borglab/gtsam/pull/2463) | Fix incorrect key in cheirality error message for PPP/PPPC factors |
+| [#2464](https://github.com/borglab/gtsam/pull/2464) | Fix `tMin_` reset when an iteration has zero duration |
+| [#2465](https://github.com/borglab/gtsam/pull/2465) | Reject negative sigma values in noise model constructors |
+| [#2467](https://github.com/borglab/gtsam/pull/2467) | Fix `LinearContainerFactor::rekey()` segfault without linearization point |
+
+### [Rerun](https://github.com/rerun-io/rerun)
+
+| PR | Description |
+|---|---|
+| [#12672](https://github.com/rerun-io/rerun/pull/12672) | Fix incorrect byte unit conversion values in render benchmark |
+| [#12673](https://github.com/rerun-io/rerun/pull/12673) | Reuse precomputed timelines dict in `send_columns` instead of re-iterating |
+| [#12674](https://github.com/rerun-io/rerun/pull/12674) | Fix wrong variable in error message for extra args in `log()` |
 
 ### [PyTorch RL](https://github.com/pytorch/rl)
 
@@ -27,21 +45,6 @@
 | PR | Description |
 |---|---|
 | [#3944](https://github.com/huggingface/accelerate/pull/3944) | Fix mutable default in Megatron init and IndexError on empty ModuleList |
-
-### [GTSAM](https://github.com/borglab/gtsam)
-
-| PR | Description |
-|---|---|
-| [#2456](https://github.com/borglab/gtsam/pull/2456) | Fix `enforceConsistency_` in BatchFixedLagSmoother -- first-estimates Jacobian logic was silently broken |
-| [#2465](https://github.com/borglab/gtsam/pull/2465) | Reject negative sigma values in noise model constructors |
-
-### [Rerun](https://github.com/rerun-io/rerun)
-
-| PR | Description |
-|---|---|
-| [#12672](https://github.com/rerun-io/rerun/pull/12672) | Fix incorrect byte unit conversion values in render benchmark |
-| [#12673](https://github.com/rerun-io/rerun/pull/12673) | Reuse precomputed timelines dict in `send_columns` instead of re-iterating |
-| [#12674](https://github.com/rerun-io/rerun/pull/12674) | Fix wrong variable in error message for extra args in `log()` |
 
 ### [RSL_RL](https://github.com/leggedrobotics/rsl_rl)
 
