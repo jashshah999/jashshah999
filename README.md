@@ -2,6 +2,8 @@
 
 17 PRs merged across 7 repos.
 
+[GTSAM](https://github.com/borglab/gtsam) | [LeRobot](https://github.com/huggingface/lerobot) | [Rerun](https://github.com/rerun-io/rerun) | [PyTorch RL](https://github.com/pytorch/rl) | [Transformers](https://github.com/huggingface/transformers) | [Accelerate](https://github.com/huggingface/accelerate) | [RSL_RL](https://github.com/leggedrobotics/rsl_rl)
+
 ---
 
 <details open>
