@@ -1,10 +1,17 @@
+### Hi, I'm Jash
+
+Robotics and AI. I contribute to open source projects in robot learning, computer vision, and scientific computing.
+
+[![Email](https://img.shields.io/badge/Email-jashshah.999%40gmail.com-red?style=flat-square&logo=gmail&logoColor=white)](mailto:jashshah.999@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Jash%20Shah-blue?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jash-shah-999-new/)
+
+---
+
 ## Open Source Contributions
 
 17 PRs merged across 7 repos.
 
 [GTSAM](https://github.com/borglab/gtsam) | [LeRobot](https://github.com/huggingface/lerobot) | [Rerun](https://github.com/rerun-io/rerun) | [PyTorch RL](https://github.com/pytorch/rl) | [Transformers](https://github.com/huggingface/transformers) | [Accelerate](https://github.com/huggingface/accelerate) | [RSL_RL](https://github.com/leggedrobotics/rsl_rl)
-
----
 
 <details open>
 <summary><b>GTSAM</b> — 5 PRs</summary>
