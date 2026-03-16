@@ -1,6 +1,4 @@
-### Hi, I'm Jash
-
-Robotics and AI. I contribute to open source projects in robot learning, computer vision, and scientific computing.
+Machine learning and robotics.
 
 [![Email](https://img.shields.io/badge/Email-jashshah.999%40gmail.com-red?style=flat-square&logo=gmail&logoColor=white)](mailto:jashshah.999@gmail.com)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Jash%20Shah-blue?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jash-shah-999-new/)
