@@ -4,8 +4,6 @@ Hi, I'm Jash.
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Jash%20Shah-blue?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jash-shah-999-new/)
 
 ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=jashshah999&show_icons=true&theme=dark&count_private=true)
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=jashshah999&layout=compact&theme=dark)
-![Streak](https://github-readme-streak-stats.herokuapp.com/?user=jashshah999&theme=dark)
 
 ---
 
