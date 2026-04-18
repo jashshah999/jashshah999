@@ -3,13 +3,17 @@ Hi, I'm Jash.
 [![Email](https://img.shields.io/badge/Email-jashshah.999%40gmail.com-red?style=flat-square&logo=gmail&logoColor=white)](mailto:jashshah.999@gmail.com)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Jash%20Shah-blue?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jash-shah-999-new/)
 
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=jashshah999&show_icons=true&theme=dark&count_private=true)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=jashshah999&layout=compact&theme=dark)
+![Streak](https://github-readme-streak-stats.herokuapp.com/?user=jashshah999&theme=dark)
+
 ---
 
 ## Open Source Contributions
 
-20 PRs merged across 7 repos.
+24 PRs merged across 12 repos.
 
-[GTSAM](https://github.com/borglab/gtsam) | [LeRobot](https://github.com/huggingface/lerobot) | [PyTorch RL](https://github.com/pytorch/rl) | [Rerun](https://github.com/rerun-io/rerun) | [RSL_RL](https://github.com/leggedrobotics/rsl_rl) | [Transformers](https://github.com/huggingface/transformers) | [Accelerate](https://github.com/huggingface/accelerate)
+[GTSAM](https://github.com/borglab/gtsam) | [LeRobot](https://github.com/huggingface/lerobot) | [PyTorch RL](https://github.com/pytorch/rl) | [Rerun](https://github.com/rerun-io/rerun) | [RSL_RL](https://github.com/leggedrobotics/rsl_rl) | [Transformers](https://github.com/huggingface/transformers) | [Accelerate](https://github.com/huggingface/accelerate) | [LeRobot Visualizer](https://github.com/huggingface/lerobot-dataset-visualizer)
 
 <details open>
 <summary><b>GTSAM</b> — 6 merged</summary>
@@ -84,5 +88,14 @@ Hi, I'm Jash.
 | PR | Description |
 |---|---|
 | [#3944](https://github.com/huggingface/accelerate/pull/3944) | Fix mutable default in Megatron init and IndexError on empty ModuleList |
+
+</details>
+
+<details>
+<summary><b>LeRobot Dataset Visualizer</b> — 1 merged</summary>
+
+| PR | Description |
+|---|---|
+| [#57](https://github.com/huggingface/lerobot-dataset-visualizer/pull/57) | Add Doctor tab integrating [lerobot-doctor](https://github.com/jashshah999/lerobot-doctor) diagnostics into the visualizer |
 
 </details>
