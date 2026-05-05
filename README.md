@@ -1,10 +1,22 @@
 Hi, I'm Jash.
 
-ML Research Engineer at [Nissan](https://www.nissan-global.com/). I like building things that work well and fixing things that don't.
+ML Research Engineer at [Nissan](https://www.nissan-global.com/). I love building things that people actually need.
 
 [![Email](https://img.shields.io/badge/Email-jashshah.999%40gmail.com-red?style=flat-square&logo=gmail&logoColor=white)](mailto:jashshah.999@gmail.com)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Jash%20Shah-blue?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jash-shah-999-new/)
 
+---
+
+## Projects
+
+| Project | Description |
+|---|---|
+| [vla-serve](https://github.com/jashshah999/vla-serve) | Real-time VLA inference for robots. 13x faster. One command. |
+| [robohacks26](https://github.com/praveenVnktsh/robohacks26) | Pharmacy robot that builds semantic maps from video walkthroughs for autonomous navigation and manipulation. |
+| [vggt-factor-refinement](https://github.com/jashshah999/vggt-factor-refinement) | Factor graph refinement of VGGT for long video pose estimation. 70% ATE improvement over naive stitching. |
+| [recon3d](https://github.com/jashshah999/recon3d) | One-command 3D reconstruction from video. No COLMAP needed. |
+| [gtsam-splatfactors](https://github.com/jashshah999/gtsam-splatfactors) | Gaussian Splatting meets Factor Graph SLAM. iSAM2 pose optimization with differentiable rendering factors. |
+| [lerobot-doctor](https://github.com/jashshah999/lerobot-doctor) | Diagnostic tool for LeRobot datasets. Integrated into the official HF dataset visualizer. |
 
 ---
 
@@ -13,16 +25,6 @@ ML Research Engineer at [Nissan](https://www.nissan-global.com/). I like buildin
 25 PRs merged across 10 repos.
 
 [GTSAM](https://github.com/borglab/gtsam) | [LeRobot](https://github.com/huggingface/lerobot) | [PyTorch RL](https://github.com/pytorch/rl) | [Rerun](https://github.com/rerun-io/rerun) | [RSL_RL](https://github.com/leggedrobotics/rsl_rl) | [Transformers](https://github.com/huggingface/transformers) | [Accelerate](https://github.com/huggingface/accelerate) | [LeRobot Visualizer](https://github.com/huggingface/lerobot-dataset-visualizer)
-
-## Projects
-
-| Project | Description |
-|---|---|
-| [vggt-factor-refinement](https://github.com/jashshah999/vggt-factor-refinement) | Factor graph refinement of VGGT for long video camera pose estimation. 70% ATE improvement over naive stitching on TUM-RGBD and Replica. |
-| [gtsam-splatfactors](https://github.com/jashshah999/gtsam-splatfactors) | Gaussian Splatting meets Factor Graph SLAM. iSAM2 pose optimization with differentiable rendering factors. |
-| [lerobot-doctor](https://github.com/jashshah999/lerobot-doctor) | Diagnostic tool for LeRobot datasets. Integrated into the official HF dataset visualizer. |
-
----
 
 <details open>
 <summary><b>GTSAM</b> — 6 merged</summary>
