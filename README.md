@@ -3,7 +3,7 @@ Hi, I'm Jash.
 [![Email](https://img.shields.io/badge/Email-jashshah.999%40gmail.com-red?style=flat-square&logo=gmail&logoColor=white)](mailto:jashshah.999@gmail.com)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Jash%20Shah-blue?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jash-shah-999-new/)
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=jashshah999&show_icons=true&theme=dark&count_private=true&show=prs_merged&include_all_commits=true)
+[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=jashshah999&theme=dark)](https://github.com/jashshah999)
 
 ---
 
