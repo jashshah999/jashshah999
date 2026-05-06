@@ -22,9 +22,9 @@ ML Research Engineer at [Nissan](https://www.nissan-global.com/). I like buildin
 
 ## Open Source Contributions
 
-25 PRs merged across 10 repos.
+26 PRs merged across 11 repos.
 
-[GTSAM](https://github.com/borglab/gtsam) | [LeRobot](https://github.com/huggingface/lerobot) | [PyTorch RL](https://github.com/pytorch/rl) | [Rerun](https://github.com/rerun-io/rerun) | [RSL_RL](https://github.com/leggedrobotics/rsl_rl) | [Transformers](https://github.com/huggingface/transformers) | [Accelerate](https://github.com/huggingface/accelerate) | [LeRobot Visualizer](https://github.com/huggingface/lerobot-dataset-visualizer)
+[GTSAM](https://github.com/borglab/gtsam) | [LeRobot](https://github.com/huggingface/lerobot) | [JAX](https://github.com/jax-ml/jax) | [PyTorch RL](https://github.com/pytorch/rl) | [Rerun](https://github.com/rerun-io/rerun) | [RSL_RL](https://github.com/leggedrobotics/rsl_rl) | [Transformers](https://github.com/huggingface/transformers) | [Accelerate](https://github.com/huggingface/accelerate) | [LeRobot Visualizer](https://github.com/huggingface/lerobot-dataset-visualizer)
 
 <details open>
 <summary><b>GTSAM</b> — 6 merged</summary>
@@ -50,6 +50,15 @@ ML Research Engineer at [Nissan](https://www.nissan-global.com/). I like buildin
 | [#3017](https://github.com/huggingface/lerobot/pull/3017) | Fix missing config file in pip installs causing AttributeError crash |
 | [#3063](https://github.com/huggingface/lerobot/pull/3063) | Ensure queue and process cleanup on abnormal exit |
 | [#3485](https://github.com/huggingface/lerobot/pull/3485) | Fix LoRA resume from Hub (PosixPath cast + double wrap prevention) |
+
+</details>
+
+<details>
+<summary><b>JAX</b> — 1 merged</summary>
+
+| PR | Description |
+|---|---|
+| [#37358](https://github.com/jax-ml/jax/pull/37358) | Add stable two-pass variance algorithm to `nn.standardize` |
 
 </details>
 
