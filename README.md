@@ -22,9 +22,18 @@ ML Research Engineer at [Nissan](https://www.nissan-global.com/). I like buildin
 
 ## Open Source Contributions
 
-26 PRs merged across 11 repos.
+27 PRs merged across 12 repos.
 
-[GTSAM](https://github.com/borglab/gtsam) | [LeRobot](https://github.com/huggingface/lerobot) | [JAX](https://github.com/jax-ml/jax) | [PyTorch RL](https://github.com/pytorch/rl) | [Rerun](https://github.com/rerun-io/rerun) | [RSL_RL](https://github.com/leggedrobotics/rsl_rl) | [Transformers](https://github.com/huggingface/transformers) | [Accelerate](https://github.com/huggingface/accelerate) | [LeRobot Visualizer](https://github.com/huggingface/lerobot-dataset-visualizer)
+[PyTorch](https://github.com/pytorch/pytorch) | [GTSAM](https://github.com/borglab/gtsam) | [LeRobot](https://github.com/huggingface/lerobot) | [JAX](https://github.com/jax-ml/jax) | [PyTorch RL](https://github.com/pytorch/rl) | [Rerun](https://github.com/rerun-io/rerun) | [RSL_RL](https://github.com/leggedrobotics/rsl_rl) | [Transformers](https://github.com/huggingface/transformers) | [Accelerate](https://github.com/huggingface/accelerate) | [LeRobot Visualizer](https://github.com/huggingface/lerobot-dataset-visualizer)
+
+<details open>
+<summary><b>PyTorch</b> — 1 merged</summary>
+
+| PR | Description |
+|---|---|
+| [#182414](https://github.com/pytorch/pytorch/pull/182414) | Fix `_replication_pad` crash under deterministic mode with tensor padding |
+
+</details>
 
 <details open>
 <summary><b>GTSAM</b> — 6 merged</summary>
