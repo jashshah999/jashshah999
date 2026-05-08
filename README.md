@@ -22,9 +22,9 @@ ML Research Engineer at [Nissan](https://www.nissan-global.com/). I like buildin
 
 ## Open Source Contributions
 
-29 PRs merged across 12 repos.
+27 PRs merged across 11 repos.
 
-[PyTorch](https://github.com/pytorch/pytorch) | [GTSAM](https://github.com/borglab/gtsam) | [LeRobot](https://github.com/huggingface/lerobot) | [JAX](https://github.com/jax-ml/jax) | [PyTorch RL](https://github.com/pytorch/rl) | [Rerun](https://github.com/rerun-io/rerun) | [RSL_RL](https://github.com/leggedrobotics/rsl_rl) | [Transformers](https://github.com/huggingface/transformers) | [Accelerate](https://github.com/huggingface/accelerate) | [LeRobot Visualizer](https://github.com/huggingface/lerobot-dataset-visualizer)
+[PyTorch](https://github.com/pytorch/pytorch) | [GTSAM](https://github.com/borglab/gtsam) | [LeRobot](https://github.com/huggingface/lerobot) | [JAX](https://github.com/jax-ml/jax) | [PyTorch RL](https://github.com/pytorch/rl) | [Rerun](https://github.com/rerun-io/rerun) | [RSL_RL](https://github.com/leggedrobotics/rsl_rl) | [Transformers](https://github.com/huggingface/transformers) | [Accelerate](https://github.com/huggingface/accelerate) | [LeRobot Visualizer](https://github.com/huggingface/lerobot-dataset-visualizer) | [awesome-3DGS](https://github.com/MrNeRF/awesome-3D-gaussian-splatting)
 
 <details open>
 <summary><b>PyTorch</b> — 1 merged</summary>
@@ -129,5 +129,14 @@ ML Research Engineer at [Nissan](https://www.nissan-global.com/). I like buildin
 | PR | Description |
 |---|---|
 | [#57](https://github.com/huggingface/lerobot-dataset-visualizer/pull/57) | Add Doctor tab integrating [lerobot-doctor](https://github.com/jashshah999/lerobot-doctor) diagnostics into the visualizer |
+
+</details>
+
+<details>
+<summary><b>awesome-3D-gaussian-splatting</b> — 1 merged</summary>
+
+| PR | Description |
+|---|---|
+| [#410](https://github.com/MrNeRF/awesome-3D-gaussian-splatting/pull/410) | Add vggt-factor-refinement (COLMAP-free pipeline for 3DGS) |
 
 </details>
