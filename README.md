@@ -11,12 +11,11 @@ ML Research Engineer at [Nissan](https://www.nissan-global.com/). I like buildin
 
 | Project | Description |
 |---|---|
-| [vla-serve](https://github.com/jashshah999/vla-serve) | Real-time VLA inference for robots. 13x faster. One command. |
-| [robohacks26](https://github.com/praveenVnktsh/robohacks26) | Pharmacy robot that builds semantic maps from video walkthroughs for autonomous navigation and manipulation. |
+| [lerobot-doctor](https://github.com/jashshah999/lerobot-doctor) | Diagnostic tool for LeRobot datasets. Live on the [official HF dataset visualizer](https://github.com/huggingface/lerobot-dataset-visualizer). |
 | [vggt-factor-refinement](https://github.com/jashshah999/vggt-factor-refinement) | Factor graph refinement of VGGT for long video pose estimation. 70% ATE improvement over naive stitching. Listed on [awesome-3D-gaussian-splatting](https://github.com/MrNeRF/awesome-3D-gaussian-splatting). |
 | [recon3d](https://github.com/jashshah999/recon3d) | One-command 3D reconstruction from video. No COLMAP needed. |
 | [gtsam-splatfactors](https://github.com/jashshah999/gtsam-splatfactors) | Gaussian Splatting meets Factor Graph SLAM. iSAM2 pose optimization with differentiable rendering factors. |
-| [lerobot-doctor](https://github.com/jashshah999/lerobot-doctor) | Diagnostic tool for LeRobot datasets. Live on the [official HF dataset visualizer](https://github.com/huggingface/lerobot-dataset-visualizer). |
+| [robohacks26](https://github.com/praveenVnktsh/robohacks26) | Pharmacy robot that builds semantic maps from video walkthroughs for autonomous navigation and manipulation. |
 
 ---
 
