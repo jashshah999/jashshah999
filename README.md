@@ -22,7 +22,7 @@ ML Research Engineer at [Nissan](https://www.nissan-global.com/). I like buildin
 
 ## Open Source Contributions
 
-27 PRs merged across 12 repos.
+29 PRs merged across 12 repos.
 
 [PyTorch](https://github.com/pytorch/pytorch) | [GTSAM](https://github.com/borglab/gtsam) | [LeRobot](https://github.com/huggingface/lerobot) | [JAX](https://github.com/jax-ml/jax) | [PyTorch RL](https://github.com/pytorch/rl) | [Rerun](https://github.com/rerun-io/rerun) | [RSL_RL](https://github.com/leggedrobotics/rsl_rl) | [Transformers](https://github.com/huggingface/transformers) | [Accelerate](https://github.com/huggingface/accelerate) | [LeRobot Visualizer](https://github.com/huggingface/lerobot-dataset-visualizer)
 
@@ -36,7 +36,7 @@ ML Research Engineer at [Nissan](https://www.nissan-global.com/). I like buildin
 </details>
 
 <details open>
-<summary><b>GTSAM</b> — 6 merged</summary>
+<summary><b>GTSAM</b> — 8 merged</summary>
 
 | PR | Description |
 |---|---|
@@ -46,6 +46,8 @@ ML Research Engineer at [Nissan](https://www.nissan-global.com/). I like buildin
 | [#2465](https://github.com/borglab/gtsam/pull/2465) | Reject negative sigma values in noise model constructors |
 | [#2467](https://github.com/borglab/gtsam/pull/2467) | Fix `LinearContainerFactor::rekey()` segfault without linearization point |
 | [#2471](https://github.com/borglab/gtsam/pull/2471) | Rename Python reserved keywords in wrapper interface files |
+| [#2509](https://github.com/borglab/gtsam/pull/2509) | Adaptive variable reordering in iSAM2 triggered by fill-in growth |
+| [#2511](https://github.com/borglab/gtsam/pull/2511) | Implement Cayley chart retract/local Jacobians for Rot3 |
 
 </details>
 
