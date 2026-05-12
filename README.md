@@ -21,7 +21,7 @@ ML Research Engineer at [Nissan](https://www.nissan-global.com/). Reviewer at [H
 
 ## Open Source Contributions
 
-28 PRs merged across 11 repos.
+29 PRs merged across 11 repos.
 
 [PyTorch](https://github.com/pytorch/pytorch) | [GTSAM](https://github.com/borglab/gtsam) | [LeRobot](https://github.com/huggingface/lerobot) | [JAX](https://github.com/jax-ml/jax) | [PyTorch RL](https://github.com/pytorch/rl) | [Rerun](https://github.com/rerun-io/rerun) | [RSL_RL](https://github.com/leggedrobotics/rsl_rl) | [Transformers](https://github.com/huggingface/transformers) | [Accelerate](https://github.com/huggingface/accelerate) | [LeRobot Visualizer](https://github.com/huggingface/lerobot-dataset-visualizer) | [awesome-3DGS](https://github.com/MrNeRF/awesome-3D-gaussian-splatting)
 
@@ -52,7 +52,7 @@ ML Research Engineer at [Nissan](https://www.nissan-global.com/). Reviewer at [H
 </details>
 
 <details open>
-<summary><b>HuggingFace LeRobot</b> — 5 merged</summary>
+<summary><b>HuggingFace LeRobot</b> — 6 merged</summary>
 
 | PR | Description |
 |---|---|
@@ -61,6 +61,7 @@ ML Research Engineer at [Nissan](https://www.nissan-global.com/). Reviewer at [H
 | [#3017](https://github.com/huggingface/lerobot/pull/3017) | Fix missing config file in pip installs causing AttributeError crash |
 | [#3063](https://github.com/huggingface/lerobot/pull/3063) | Ensure queue and process cleanup on abnormal exit |
 | [#3485](https://github.com/huggingface/lerobot/pull/3485) | Fix LoRA resume from Hub (PosixPath cast + double wrap prevention) |
+| [#3542](https://github.com/huggingface/lerobot/pull/3542) | Close file handle on VideoDecoder init failure in cache |
 
 </details>
 
