@@ -6,12 +6,6 @@ ML Research Engineer at [Nissan](https://www.nissan-global.com/). Reviewer at [H
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Jash%20Shah-blue?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jash-shah-999-new/)
 ![Profile Views](https://komarev.com/ghpvc/?username=jashshah999&style=flat-square&color=grey)
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/jashshah999/jashshah999/output/github-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/jashshah999/jashshah999/output/github-snake.svg" />
-  <img alt="github contribution snake animation" src="https://raw.githubusercontent.com/jashshah999/jashshah999/output/github-snake.svg" />
-</picture>
-
 ---
 
 ## Projects
