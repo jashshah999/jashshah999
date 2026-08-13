@@ -15,28 +15,19 @@ ML Research Engineer at [Nissan](https://www.nissan-global.com/). Reviewer at [H
 | [lerobot-doctor](https://github.com/jashshah999/lerobot-doctor) | Diagnostic tool for LeRobot datasets. Live on the [official HF dataset visualizer](https://github.com/huggingface/lerobot-dataset-visualizer). |
 | [vggt-factor-refinement](https://github.com/jashshah999/vggt-factor-refinement) | Factor graph refinement of VGGT for long video pose estimation. 70% ATE improvement over naive stitching. Listed on [awesome-3D-gaussian-splatting](https://github.com/MrNeRF/awesome-3D-gaussian-splatting). |
 | [recon3d](https://github.com/jashshah999/recon3d) | One-command 3D reconstruction from video. No COLMAP needed. |
-| [gtsam-splatfactors](https://github.com/jashshah999/gtsam-splatfactors) | Gaussian Splatting meets Factor Graph SLAM. iSAM2 pose optimization with differentiable rendering factors. |
+| [gtsam-splatfactors](https://github.com/jashshah999/gtsam-splatfactors) | Gaussian Splatting meets Factor Graph SLAM. iSAM2 pose optimization with differentiable rendering factors. Featured on the [GTSAM blog](https://gtsam.org/2026/08/04/gaussian-splatting-slam.html). |
 | [robohacks26](https://github.com/praveenVnktsh/robohacks26) | Pharmacy robot that builds semantic maps from video walkthroughs for autonomous navigation and manipulation. |
 
 ---
 
 ## Open Source Contributions
 
-29 PRs merged across 11 repos.
+36 PRs merged across 12 repos.
 
-[PyTorch](https://github.com/pytorch/pytorch) | [GTSAM](https://github.com/borglab/gtsam) | [LeRobot](https://github.com/huggingface/lerobot) | [JAX](https://github.com/jax-ml/jax) | [PyTorch RL](https://github.com/pytorch/rl) | [Rerun](https://github.com/rerun-io/rerun) | [RSL_RL](https://github.com/leggedrobotics/rsl_rl) | [Transformers](https://github.com/huggingface/transformers) | [Accelerate](https://github.com/huggingface/accelerate) | [LeRobot Visualizer](https://github.com/huggingface/lerobot-dataset-visualizer) | [awesome-3DGS](https://github.com/MrNeRF/awesome-3D-gaussian-splatting)
-
-<details open>
-<summary><b>PyTorch</b> — 1 merged</summary>
-
-| PR | Description |
-|---|---|
-| [#182414](https://github.com/pytorch/pytorch/pull/182414) | Fix `_replication_pad` crash under deterministic mode with tensor padding |
-
-</details>
+[GTSAM](https://github.com/borglab/gtsam) | [GTSAM Blog](https://gtsam.org/blog/) | [wrap](https://github.com/borglab/wrap) | [LeRobot](https://github.com/huggingface/lerobot) | [JAX](https://github.com/jax-ml/jax) | [PyTorch RL](https://github.com/pytorch/rl) | [Rerun](https://github.com/rerun-io/rerun) | [RSL_RL](https://github.com/leggedrobotics/rsl_rl) | [Transformers](https://github.com/huggingface/transformers) | [Accelerate](https://github.com/huggingface/accelerate) | [LeRobot Visualizer](https://github.com/huggingface/lerobot-dataset-visualizer) | [awesome-3DGS](https://github.com/MrNeRF/awesome-3D-gaussian-splatting)
 
 <details open>
-<summary><b>GTSAM</b> — 9 merged</summary>
+<summary><b>GTSAM</b>: 11 merged</summary>
 
 | PR | Description |
 |---|---|
@@ -49,11 +40,32 @@ ML Research Engineer at [Nissan](https://www.nissan-global.com/). Reviewer at [H
 | [#2509](https://github.com/borglab/gtsam/pull/2509) | Adaptive variable reordering in iSAM2 triggered by fill-in growth |
 | [#2510](https://github.com/borglab/gtsam/pull/2510) | Compute JacobianFactor::gradient() directly, skip HessianFactor conversion |
 | [#2511](https://github.com/borglab/gtsam/pull/2511) | Implement Cayley chart retract/local Jacobians for Rot3 |
+| [#2520](https://github.com/borglab/gtsam/pull/2520) | Return references from optimizer wrappers to avoid deep-copying Values |
+| [#2597](https://github.com/borglab/gtsam/pull/2597) | Fix PartialPriorFactor instantiation for vector-space types like Point3 |
 
 </details>
 
 <details open>
-<summary><b>HuggingFace LeRobot</b> — 6 merged</summary>
+<summary><b>GTSAM Blog</b>: 2 merged</summary>
+
+| PR | Description |
+|---|---|
+| [#85](https://github.com/borglab/gtsam.org/pull/85) | Wrote the guest post [3D Gaussian Splatting meets Factor Graph SLAM](https://gtsam.org/2026/08/04/gaussian-splatting-slam.html) |
+| [#92](https://github.com/borglab/gtsam.org/pull/92) | Corrections and reproducibility pass on the post |
+
+</details>
+
+<details>
+<summary><b>wrap (GTSAM bindings generator)</b>: 1 merged</summary>
+
+| PR | Description |
+|---|---|
+| [#182](https://github.com/borglab/wrap/pull/182) | Add `reference_internal` return policy for const-ref returns |
+
+</details>
+
+<details open>
+<summary><b>HuggingFace LeRobot</b>: 9 merged</summary>
 
 | PR | Description |
 |---|---|
@@ -61,13 +73,16 @@ ML Research Engineer at [Nissan](https://www.nissan-global.com/). Reviewer at [H
 | [#3016](https://github.com/huggingface/lerobot/pull/3016) | Replace assertions with proper exceptions in video frame decoding |
 | [#3017](https://github.com/huggingface/lerobot/pull/3017) | Fix missing config file in pip installs causing AttributeError crash |
 | [#3063](https://github.com/huggingface/lerobot/pull/3063) | Ensure queue and process cleanup on abnormal exit |
+| [#3145](https://github.com/huggingface/lerobot/pull/3145) | Fix `policy.path` not working in YAML config files |
 | [#3485](https://github.com/huggingface/lerobot/pull/3485) | Fix LoRA resume from Hub (PosixPath cast + double wrap prevention) |
 | [#3542](https://github.com/huggingface/lerobot/pull/3542) | Close file handle on VideoDecoder init failure in cache |
+| [#4022](https://github.com/huggingface/lerobot/pull/4022) | Keep checkpoint processor stats on training resume |
+| [#4023](https://github.com/huggingface/lerobot/pull/4023) | Accept `pretrained_model` dir for `--config_path` on resume |
 
 </details>
 
 <details>
-<summary><b>JAX</b> — 1 merged</summary>
+<summary><b>JAX</b>: 1 merged</summary>
 
 | PR | Description |
 |---|---|
@@ -76,7 +91,7 @@ ML Research Engineer at [Nissan](https://www.nissan-global.com/). Reviewer at [H
 </details>
 
 <details>
-<summary><b>PyTorch RL</b> — 3 merged</summary>
+<summary><b>PyTorch RL</b>: 3 merged</summary>
 
 | PR | Description |
 |---|---|
@@ -87,7 +102,7 @@ ML Research Engineer at [Nissan](https://www.nissan-global.com/). Reviewer at [H
 </details>
 
 <details>
-<summary><b>Rerun</b> — 3 merged</summary>
+<summary><b>Rerun</b>: 3 merged</summary>
 
 | PR | Description |
 |---|---|
@@ -98,7 +113,7 @@ ML Research Engineer at [Nissan](https://www.nissan-global.com/). Reviewer at [H
 </details>
 
 <details>
-<summary><b>RSL_RL</b> — 2 merged</summary>
+<summary><b>RSL_RL</b>: 2 merged</summary>
 
 | PR | Description |
 |---|---|
@@ -108,7 +123,7 @@ ML Research Engineer at [Nissan](https://www.nissan-global.com/). Reviewer at [H
 </details>
 
 <details>
-<summary><b>HuggingFace Transformers</b> — 1 merged</summary>
+<summary><b>HuggingFace Transformers</b>: 1 merged</summary>
 
 | PR | Description |
 |---|---|
@@ -117,7 +132,7 @@ ML Research Engineer at [Nissan](https://www.nissan-global.com/). Reviewer at [H
 </details>
 
 <details>
-<summary><b>HuggingFace Accelerate</b> — 1 merged</summary>
+<summary><b>HuggingFace Accelerate</b>: 1 merged</summary>
 
 | PR | Description |
 |---|---|
@@ -126,7 +141,7 @@ ML Research Engineer at [Nissan](https://www.nissan-global.com/). Reviewer at [H
 </details>
 
 <details>
-<summary><b>LeRobot Dataset Visualizer</b> — 1 merged</summary>
+<summary><b>LeRobot Dataset Visualizer</b>: 1 merged</summary>
 
 | PR | Description |
 |---|---|
@@ -135,7 +150,7 @@ ML Research Engineer at [Nissan](https://www.nissan-global.com/). Reviewer at [H
 </details>
 
 <details>
-<summary><b>awesome-3D-gaussian-splatting</b> — 1 merged</summary>
+<summary><b>awesome-3D-gaussian-splatting</b>: 1 merged</summary>
 
 | PR | Description |
 |---|---|
